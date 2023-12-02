@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Jobs</title>
+    <link rel="stylesheet" type="text/css" href="/css.css">
+</head>
+<body>
+    <main>
+        <h1>Trova il tuo lavoro.</h1>
+        <div>
+            <label for="jobsInput">Che lavoro cerchi?</label>
+            <input type="text" id="jobsInput">
+        </div>
+        <div>
+            <label for="searchInput">Dove?</label>
+            <input type="text" id="locationInput" oninput="jobsSearch()">
+        </div>
+        <!--<button id="jobSearch" onclick="jobsSearch()">Cerca</button> Alternativa richiesta-->
+        <div class="content">
+            <div id="infoResult"></div>
+            <ul id="searchResult"></ul>
+        </div>
+    </main>
+
+    <script src="/ricerca.js"></script> 
+</body>
+</html>

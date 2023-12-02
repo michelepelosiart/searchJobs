@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right bottom, #5C258D, #4389A2);
+    color: #fff; 
+    padding: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #343a40;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #495057;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+/* Aggiunto stile per il contenitore "content" */
+.content {
+    margin-top: 20px;
+    min-height: 800px;
+    
+}
+
+#infoResult {
+    padding: 15px;
+    background-color: #dee2e6;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    color: #495057;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    border: 1px solid #ced4da;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #495057;
+    transition: background-color 0.3s ease;
+}
+
+/* Stile hover per gli elementi della lista */
+ul li:hover {
+    background-color: #f1f3f5;
+    cursor: pointer;
+}
